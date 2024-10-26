@@ -1,22 +1,14 @@
-import features01 from "../assets/img/logos-edits-react.webp";
-import features02 from "../assets/img/logos-edits-nextjs.webp";
-import features03 from "../assets/img/logos-edits-react-native.webp";
-import features04 from "../assets/img/logos-edits-nodejs.webp";
-import features05 from "../assets/img/logos-edits-python.webp";
-import features06 from "../assets/img/logos-edits-premiere-pro.webp";
-import features07 from "../assets/img/logos-edits-photoshop.webp";
-import features08 from "../assets/img/logos-edits-after-effect.webp";
-import features09 from "../assets/img/logos-edits-git.webp";
-import features10 from "../assets/img/logos-edits-sanity.webp";
-import features11 from "../assets/img/logos-edits-redux.webp";
-import features12 from "../assets/img/logos-edits-typescript.webp";
-import features13 from "../assets/img/logos-edits-mongodb.webp";
-import features14 from "../assets/img/logos-edits-firebase.webp";
-import features15 from "../assets/img/logos-edits-javascript.webp";
-import features16 from "../assets/img/logos-edits-bootstrap.webp";
-import features17 from "../assets/img/logos-edits-tailwindcss.webp";
-import features18 from "../assets/img/logos-edits-css3.webp";
-import features19 from "../assets/img/logos-edits-html5.webp";
+import features01 from "../assets/img/skills1.png";
+import features02 from "../assets/img/skills2.png";
+import features03 from "../assets/img/skills3.png";
+import features04 from "../assets/img/skills4.png";
+import features05 from "../assets/img/skills5.png";
+import features06 from "../assets/img/skills6.png";
+import features07 from "../assets/img/skills7.png";
+import features08 from "../assets/img/skills8.png";
+import features09 from "../assets/img/skills9.png";
+import features10 from "../assets/img/skills10.png";
+
 
 import projImg1 from "../assets/projectImages/vampfi.webp";
 import projImg2 from "../assets/projectImages/FriendnPal-Screenshot.webp";
@@ -36,118 +28,64 @@ import { AutoScroll } from "@splidejs/splide-extension-auto-scroll";
 export const skillSetSlide = [
     {
       id: 0,
-      name: "React.js",
-      title: "Web Development",
-      img: features01,
-    },
-    {
-      id: 1,
-      name: "Next.js",
-      title: "Web Development",
-      img: features02,
-    },
-    {
-      id: 2,
-      name: "React Native",
-      title: "Mobile App Development",
-      img: features03,
-    },
-    {
-      id: 3,
-      name: "Node.js",
-      title: "Server Side Development",
-      img: features04,
-    },
-    {
-      id: 4,
-      name: "Python",
-      title: "Software Development",
-      img: features05,
-    },
-    {
-      id: 5,
-      name: "Premiere Pro",
-      title: "Video Content Creation",
-      img: features06,
-    },
-    {
-      id: 6,
-      name: "Photoshop",
-      title: "Graphics Design",
-      img: features07,
-    },
-    {
-      id: 7,
-      name: "After Effects",
-      title: "Video Effects Creation",
-      img: features08,
-    },
-    {
-      id: 8,
-      name: "Git",
-      title: "Version Source Control",
-      img: features09,
-    },
-    {
-      id: 9,
-      name: "Sanity Database",
-      title: "Database Management",
+      name: "Communication Skills",
+      title: "Driving and motivating others through effective communication",
       img: features10,
     },
     {
-      id: 10,
-      name: "Redux",
-      title: "State Management",
-      img: features11,
+      id: 1,
+      name: "Client Management",
+      title: "Successful business development through good customer relationship",
+      img: features01,
     },
     {
-      id: 11,
-      name: "Typescript",
-      title: "Web Development",
-      img: features12,
+      id: 2,
+      name: "Territory Management",
+      title: "Manage your territory to increase sales",
+      img: features02,
     },
     {
-      id: 12,
-      name: "Mongo DB",
-      title: "Database Management",
-      img: features13,
+      id: 3,
+      name: "Negotiation",
+      title: "Closing deals with clients",
+      img: features03,
     },
     {
-      id: 13,
-      name: "Firebase",
-      title: "Database Management",
-      img: features14,
+      id: 4,
+      name: "Sales Plannng",
+      title: "Handling financial planning and budgeting",
+      img: features04,
     },
     {
-      id: 14,
-      name: "Javascript",
-      title: "Software Development",
-      img: features15,
+      id: 5,
+      name: "Coaching",
+      title: "Being an effective and successful leader",
+      img: features05,
     },
     {
-      id: 15,
-      name: "Bootstrap",
-      title: "Styling Framework",
-      img: features16,
+      id: 6,
+      name: "Power Point",
+      title: "Presentation content creation",
+      img: features06,
     },
     {
-      id: 16,
-      name: "Tailwind CSS",
-      title: "Utility Styling Framework",
-      img: features17,
+      id: 7,
+      name: "Excel",
+      title: "Spreadsheet creation and management",
+      img: features07,
     },
     {
-      id: 17,
-      name: "CSS 3",
-      title: "Styling Markup Language",
-      img: features18,
+      id: 8,
+      name: "Data Analysis",
+      title: "Processing and analyzing of data",
+      img: features08,
     },
     {
-      id: 18,
-      name: "HTML 5",
-      title: "Markup Language",
-      img: features19,
-    },
+      id: 9,
+      name: "Forward Thinking",
+      title: "Creating and implementing new ideas",
+      img: features09,
+    }
   ];
 
 export const softwareProjects = [
