@@ -2,7 +2,12 @@ import { PropTypes } from "prop-types";
 
 
 
-function WhatsappButton({buttonText}) {
+function WhatsappButton({buttonText, phoneNumber}) {
+    const getPhoneNumber = () => {
+        const phoneNum = phoneNumber.toString();
+        const phoneNumberWithoutPlus = phoneNum.slice(1);
+        return phoneNumberWithoutPlus;
+    }
 
     return (
         <div id="connect-button" 
@@ -10,7 +15,7 @@ function WhatsappButton({buttonText}) {
                 md:w-[48%] md:h-[50px] sm:w-[60%] sm:h-[50px] xs:w-[45%] xs:h-[50px] xxs:w-[55%] 
                 xxs:h-[40px] w-[70%] h-[35px]`}>
 
-            <a href="https://wa.me/+2347033325279" 
+            <a href={`https://wa.me/+234${getPhoneNumber()}`}
                 target="_blank" 
                 rel="noreferrer"
                 className="font-poppins font-semibold text-start md:text-[17px] 
@@ -25,6 +30,7 @@ function WhatsappButton({buttonText}) {
 
 WhatsappButton.propTypes = {
     buttonText: PropTypes.string.isRequired,
-    }
+    phoneNumber: PropTypes.string.isRequired,
+}
 
 export default WhatsappButton

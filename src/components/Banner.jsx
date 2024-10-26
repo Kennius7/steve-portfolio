@@ -1,5 +1,5 @@
 import { useState, useEffect, useContext } from "react";
-import headerImg from "../assets/img/shosan-pics-small.webp";
+import headerImg from "../assets/img/steve1.png";
 import WhatsappButton from "./WhatsappButton";
 import { AppContext } from "./context/AppContext";
 
@@ -64,7 +64,7 @@ const Banner = () => {
               xs:w-[40%] xxs:w-[50%] w-[60%] sm:h-[55px] xs:h-[50px] xxs:h-[45px] h-[38px]">
               <span className="text-center md:text-[20px] sm:text-[22px] xs:text-[18px] xxs:text-[17px] 
                 text-[15px] md:ml-5 sm:ml-3 ml-2">
-                Hi, I&apos;m Kenny
+                Hi, I&apos;m Stephen
               </span>
             </div>
 
@@ -88,7 +88,7 @@ const Banner = () => {
               professionals who are striving to achieve a common goal/result.
             </p>
 
-            <WhatsappButton buttonText="Chat me on WhatsApp" />
+            <WhatsappButton buttonText="Chat me on WhatsApp" phoneNumber="07033325279" />
 
           </div>
 
@@ -100,7 +100,8 @@ const Banner = () => {
             h-[280px] overflow-hidden">
             <img src={headerImg} alt="Header Img" 
               className="object-cover md:w-[98%] md:h-[98%] sm:w-[100%] sm:h-[480px] xs:w-[80%] xs:h-[80%] 
-              xxs:w-[100%] xxs:h-[320px] w-[100%] h-[360px]" />
+              xxs:w-[100%] xxs:h-[320px] w-[100%] h-[360px]"
+            />
           </div>
         </div>
 
