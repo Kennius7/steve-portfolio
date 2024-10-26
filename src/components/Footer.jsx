@@ -10,7 +10,7 @@ import emailIcon from "../assets/img/email-icons-white.png";
 
 function Footer() {
     return (
-        <footer className="w-full flex justify-center items-center bg-gray-900">
+        <footer className="w-full flex justify-center items-center bg-gray-300">
 
             <div className="w-full flex flex-col xs:justify-center justify-start items-center pt-6 px-4 
                 xs:px-4 sm:px-10 md:px-10">
@@ -21,24 +21,26 @@ function Footer() {
                         <div className="xs:flex hidden flex-col xs:max-w-[180px] sm:max-w-[300px] 
                             md:max-w-[300px]">
                             <a href="/">
-                                <div className={`text-gray-400 font-bold md:text-[16px] sm:text-[25px] 
+                                <div className={`text-gray-900 font-bold md:text-[16px] sm:text-[25px] 
                                     xs:text-[17px] text-[16px] xs:mb-2 sm:mb-4`}>Explore
                                     <span className={`text-grad ss:mb-8`}> Stephen</span>
                                 </div>
                             </a>
-                            <p className={`w-full text-gray-400 leading-[25px] xs:leading-[22px] 
-                                sm:leading-[30px] md:leading-[25px] text-[14px] xs:text-[13px] sm:text-[20px] md:text-[14px]`}>
-                                Let&apos;s help you design, develop and craft out efficient online platforms, 
-                                graphics designs, social media marketing strategies, landing pages, etc. for 
-                                your business, startup, concept or marketing strategy.
+                            <p className={`w-full text-gray-900 leading-[25px] xs:leading-[22px] 
+                                sm:leading-[30px] md:leading-[25px] text-[14px] xs:text-[13px] sm:text-[20px] 
+                                md:text-[14px]`}>
+                                I am your primary contact for all matters related to community health 
+                                projects and health insurance engagements. Whether you need assistance 
+                                with program development, implementation, or navigating insurance options, I&apos;m 
+                                here to provide expert guidance and support for your needs.
                             </p>
                         </div>
 
                         <div className="flex flex-col max-w-[140px] xs:max-w-[180px] sm:max-w-[300px] 
                             md:max-w-[400px]">
-                            <h2 className={`text-gray-400 font-bold text-[16px] xs:text-[17px] 
+                            <h2 className={`text-gray-900 font-bold text-[16px] xs:text-[17px] 
                             sm:text-[25px] md:text-[16px] mb-2 xs:mb-2 sm:mb-4`}>Information</h2>
-                            <ul className="list-unstyled flex flex-col text-gray-400 sm:text-[20px] 
+                            <ul className="list-unstyled flex flex-col text-gray-900 sm:text-[20px] 
                             text-[14px] xs:text-[13px] md:text-[15px]">
                                 <li className="mb-0 xs:mb-1 sm:mb-1 md:mb-1"><a href="#aboutme">About Me</a></li>
                                 <li className="mb-0 xs:mb-1 sm:mb-1 md:mb-1"><a href="#skills">My Skills</a></li>
@@ -50,12 +52,12 @@ function Footer() {
                         <div className={`flex flex-col justify-start max-w-[180px] xs:max-w-[180px] 
                             sm:max-w-[300px] md:max-w-[400px]`}>
 
-                            <h2 className={`text-gray-400 font-bold sm:mb-6 xs:mb-4 mb-3 sm:text-[25px] 
+                            <h2 className={`text-gray-900 font-bold sm:mb-6 xs:mb-4 mb-3 sm:text-[25px] 
                             xs:text-[17px] md:text-[16px] text-[16px]`}>
                                 Have Questions?
                             </h2>
 
-                            <ul className="w-full text-gray-400 flex flex-1 flex-col justify-start">
+                            <ul className="w-full text-gray-900 flex flex-1 flex-col justify-start">
                                 <li className="sm:mb-2 ss:mb-4">
                                     <a href="https://wa.me/+2348055549979" className="sm:mb-0 mb-2 flex flex-row justify-start items-center">
                                         <img src={phoneIcon} alt="phone" className="w-[15px] h-[15px] 
@@ -135,7 +137,7 @@ function Footer() {
 
                     <div className="w-full flex xs:justify-center justify-start mb-2 xs:mb-2 sm:mb-6 md:mb-3 
                         -mt-1 xs:mt-6 sm:mt-4 md:mt-1">
-                        <div className="w-[300px] xs:w-[400px] sm:w-[600px] text-gray-400 text-start 
+                        <div className="w-[300px] xs:w-[400px] sm:w-[600px] text-gray-900 text-start 
                             xs:text-center text-[14px] xs:text-[14px] sm:text-[22px] md:text-[15px]">
                             Copyright &copy; All rights reserved | Explore Stephen.
                         </div>

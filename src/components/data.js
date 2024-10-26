@@ -10,15 +10,19 @@ import features09 from "../assets/img/skills9.png";
 import features10 from "../assets/img/skills10.png";
 
 
-import projImg1 from "../assets/projectImages/vampfi.webp";
-import projImg2 from "../assets/projectImages/FriendnPal-Screenshot.webp";
-import projImg3 from "../assets/projectImages/Matic Drive-Screenshot.webp";
-import projImg4 from "../assets/projectImages/Arcromride-Screenshot.webp";
-import projImg5 from "../assets/projectImages/Shosan CBT-Screenshot.webp";
-import projImg6 from "../assets/projectImages/Judyhub-Screenshot.webp";
-import projImg7 from "../assets/projectImages/4.jpg";
-import projImg8 from "../assets/projectImages/4.jpg";
-import projImg9 from "../assets/projectImages/4.jpg";
+import projImg1 from "../assets/projectImages/steve-project1.jpg";
+import projImg2 from "../assets/projectImages/steve-project2.jpg";
+import projImg3 from "../assets/projectImages/steve-project3.jpg";
+import projImg4 from "../assets/projectImages/steve-project4.jpg";
+import projImg5 from "../assets/projectImages/steve-project5.jpg";
+import projImg6 from "../assets/projectImages/steve-project6.jpg";
+import projImg7 from "../assets/projectImages/steve-project7.jpg";
+import projImg8 from "../assets/projectImages/steve-project8.jpg";
+import projImg9 from "../assets/projectImages/steve-project9.jpg";
+import projImg10 from "../assets/projectImages/steve-project10.jpg";
+import projImg11 from "../assets/projectImages/steve-project11.jpg";
+import projImg12 from "../assets/projectImages/steve-project12.jpg";
+import projImg13 from "../assets/projectImages/steve-project13.jpg";
 
 import { AutoScroll } from "@splidejs/splide-extension-auto-scroll";
 
@@ -88,7 +92,92 @@ export const skillSetSlide = [
     }
   ];
 
-export const softwareProjects = [
+export const outreaches = [
+    {
+      title: "Vamp Facility Intelligence Website",
+      description: "Front End Development and Design",
+      imgUrl: projImg1,
+      buttonTitle: "Vampfi Link",
+      url: "https://vampfi.com/",
+    },
+    {
+      title: "FriendnPal Website",
+      description: "Front End Development and Design",
+      imgUrl: projImg2,
+      buttonTitle: "FriendnPal Link",
+      url: "https://friendnpal.com",
+    },
+    {
+      title: "Matic Drive Website",
+      description: "Front End Development and Design",
+      imgUrl: projImg3,
+      buttonTitle: "Matic Drive Link",
+      url: "https://maticdrive.com",
+    },
+    {
+        title: "Arcromride App",
+        description: "Mobile App Development",
+        imgUrl: projImg4,
+        buttonTitle: "Arcromride Link",
+        url: "https://www.arcromride.com/",
+    },
+    {   title: "Computer based test",
+        description: "Front End Development and Design",
+        imgUrl: projImg5,
+        buttonTitle: "Computer Test Link",
+        url: "https://shosan-computer-based-test.netlify.app/",
+    },
+    {   title: "Judyhub Website",
+        description: "Front End Development and Design",
+        imgUrl: projImg6,
+        buttonTitle: "Judyhub Link",
+        url: "https://judyhub.netlify.app/",
+    },
+    {   title: "Judyhub Website",
+        description: "Front End Development and Design",
+        imgUrl: projImg7,
+        buttonTitle: "Judyhub Link",
+        url: "https://judyhub.netlify.app/",
+    },
+    {   title: "Judyhub Website",
+        description: "Front End Development and Design",
+        imgUrl: projImg8,
+        buttonTitle: "Judyhub Link",
+        url: "https://judyhub.netlify.app/",
+    },
+    {   title: "Judyhub Website",
+        description: "Front End Development and Design",
+        imgUrl: projImg9,
+        buttonTitle: "Judyhub Link",
+        url: "https://judyhub.netlify.app/",
+    },
+    {   title: "Judyhub Website",
+        description: "Front End Development and Design",
+        imgUrl: projImg10,
+        buttonTitle: "Judyhub Link",
+        url: "https://judyhub.netlify.app/",
+    },
+    {   title: "Judyhub Website",
+        description: "Front End Development and Design",
+        imgUrl: projImg11,
+        buttonTitle: "Judyhub Link",
+        url: "https://judyhub.netlify.app/",
+    },
+    {   title: "Judyhub Website",
+        description: "Front End Development and Design",
+        imgUrl: projImg12,
+        buttonTitle: "Judyhub Link",
+        url: "https://judyhub.netlify.app/",
+    },
+    {   title: "Judyhub Website",
+        description: "Front End Development and Design",
+        imgUrl: projImg13,
+        buttonTitle: "Judyhub Link",
+        url: "https://judyhub.netlify.app/",
+    },
+  ];
+
+export const softwareProjects2 = [
     {
       title: "Vamp Facility Intelligence Website",
       description: "Front End Development and Design",

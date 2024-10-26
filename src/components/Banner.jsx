@@ -80,7 +80,7 @@ const Banner = () => {
             </h1>
 
             <p className="w-full md:text-[17px] sm:text-[18px] xs:text-[17px] xxs:text-[16px] text-[13px] md:mb-10 
-              sm:mb-8 xs:mb-8 mb-5">
+              sm:mb-8 xs:mb-8 mb-5 text-primary">
               I love the idea of using software to design solutions and troubleshooting 
               complex problems. I believe in the power of programming to transform and build unique 
               digital experiences.<br /> <br className="xs:block xxs:hidden block" />

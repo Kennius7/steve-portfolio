@@ -66,10 +66,39 @@
 }
 
 .main-bg-2 {
-  background: linear-gradient(0deg, #75114f -5.91%, #0d062b 111.58%);
+  background: linear-gradient(0deg, #6dc8b7 -5.91%, #aadcd3 111.58%);
 }
 
 .text-grad {
+  background: linear-gradient(
+    180.00deg,
+    #aadcd3 0.89%,
+    #97d4c9 17.23%,
+    #84c9bc 42.04%,
+    #73b6aa 55.12%,
+    #5cbbaa 71.54%,
+    #6dc8b7 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+/* #aadcd3 */
+/* #6dc8b7 */
+.bg-text-grad {
+  background: linear-gradient(
+    180.00deg,
+    #aadcd3 0.89%,
+    #97d4c9 17.23%,
+    #84c9bc 42.04%,
+    #73b6aa 55.12%,
+    #5cbbaa 71.54%,
+    #6dc8b7 100%
+  );
+}
+
+/* .text-grad {
   background: linear-gradient(
     180.00deg,
     #aa367c80 0.89%,
@@ -95,7 +124,7 @@
     #3f36be 71.54%,
     #4a2fbd80 100%
   );
-}
+} */
 
 .tagline {
   font-weight: 700;

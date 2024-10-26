@@ -1,7 +1,7 @@
 import { useContext, useState } from "react";
 import ProjectCard from "./ProjectCard";
 import { AppContext } from "./context/AppContext";
-import { softwareProjects, contentProjects, projectSplideOptions } from "./data.js";
+import { outreaches, contentProjects, projectSplideOptions } from "./data.js";
 
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/css";
@@ -85,7 +85,7 @@ const Projects = () => {
               <Splide options={projectSplideOptions} 
                 className="w-full flex justify-around items-center">
                 {
-                  softwareProjects.map((project, index) => {
+                  outreaches.map((project, index) => {
                     return (
                       <SplideSlide key={index}>
                         <ProjectCard {...project}/>
