@@ -19,7 +19,8 @@ function WhatsappButton({buttonText, phoneNumber}) {
                 target="_blank" 
                 rel="noreferrer"
                 className="font-poppins font-semibold text-start md:text-[17px] 
-                    sm:text-[16px] xs:text-[14px] text-[12px] md:pl-4 sm:pl-3 xs:pl-3 xxs:pl-2 pl-2">
+                sm:text-[16px] xs:text-[14px] text-[12px] md:pl-4 sm:pl-3 xs:pl-3 xxs:pl-2 pl-2"
+            >
                 {buttonText}
             </a>
 

@@ -74,10 +74,10 @@ function Navbar() {
                                 key={nav.id}
                                 className={`font-poppins font-semibold cursor-pointer hover:border-b-4 
                                 hover:pb-2 hover:border-blue-700 mr-4 flex justify-center items-center
-                                ${active === nav.title ? "text-white" : "text-gray-500"} 
+                                ${active === nav.title ? "text-white" : "text-gray-800"} 
                                 ${scrolled
-                                ? "text-[13px] navText1 duration-500"
-                                : "text-[15px] navText2 duration-500"}`}
+                                ? "text-[13px] navText3 duration-500"
+                                : "text-[15px] navText4 duration-500"}`}
                                 onClick={() => {
                                     setActive(nav.title);
                                     PageScroll(nav.ref);

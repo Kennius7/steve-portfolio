@@ -72,12 +72,12 @@
 .text-grad {
   background: linear-gradient(
     180.00deg,
-    #aadcd3 0.89%,
-    #97d4c9 17.23%,
-    #84c9bc 42.04%,
-    #73b6aa 55.12%,
-    #5cbbaa 71.54%,
-    #6dc8b7 100%
+    #4fa797 0.89%,
+    #2c6d61 17.23%,
+    #1d574c 42.04%,
+    #071f1a 55.12%,
+    #010f0d 71.54%,
+    #070707 100%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -136,7 +136,7 @@
 
 #connect-button {
   font-weight: 700;
-  color: #97b1e9;
+  color: #091735;
   background: linear-gradient(90.21deg, rgba(196, 88, 152, 0.3) -5.91%, rgba(91, 69, 192, 0.3) 111.58%);
   border: 1px solid rgba(255, 255, 255, 0.5);
   position: relative;
@@ -151,7 +151,7 @@
 }
 #connect-button::before {
   content: "";
-  background: linear-gradient(90.21deg, rgba(245, 245, 243, 0.5) -5.91%, rgba(29, 29, 28, 0.5) 111.58%);
+  background: linear-gradient(90.21deg, rgba(151, 212, 201, 0.6) -5.91%, rgba(68, 128, 117, 0.7) 111.58%);
   width: 0;
   height: 100%;
   position: absolute;
@@ -164,11 +164,16 @@
   width: 100%;
 }
 
-
+/* #97d4c9
+rgba(151, 212, 201, 0.6) */
 
 
 .navText1{
-  text-shadow: 0 0 7px rgb(42, 16, 185);
+  text-shadow: 0 0 2px rgb(42, 16, 185);
+}
+
+.navText4{
+  text-shadow: 0 0 2px rgb(20, 49, 83);
 }
 
 .navText2{
@@ -176,7 +181,7 @@
 }
 
 .navText3{
-  text-shadow: 0 0 1px rgb(241, 61, 6);
+  text-shadow: 0 0 1px rgb(235, 111, 74);
 }
 
 

@@ -59,14 +59,14 @@ const Skills = () => {
                     </div>
 
                     <div className="flex flex-col justify-center items-center sm:mt-4 xs:mt-0 mt-[20px] w-full pl-3">
-                      <div className="font-poppins font-semibold text-start md:text-[19px] sm:text-[18px] 
-                        xs:text-[16px] xxs:text-[14px] text-[12px] text-grad sm:w-[90%] xxs:w-[70%] w-[98%]">
+                      <div className="font-poppins font-semibold text-center md:text-[22px] sm:text-[20px] 
+                        xs:text-[18px] xxs:text-[16px] text-[13px] text-grad sm:w-[90%] xxs:w-[70%] w-[98%]">
                         {card.name}
                       </div>
-                      <div className="font-poppins italic text-start md:text-[15px] sm:text-[13px] xs:text-[12px] 
+                      {/* <div className="font-poppins italic text-start md:text-[15px] sm:text-[13px] xs:text-[12px] 
                         xxs:text-[11px] text-[10px] text-dimWhite sm:w-[90%] xxs:w-[70%] w-[98%]">
                         {card.title}
-                      </div>
+                      </div> */}
                     </div>
 
                   </div>

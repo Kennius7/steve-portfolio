@@ -74,8 +74,8 @@ function App() {
         <div className={`flex flex-col main-bg-2 relative`}>
 
           <div className={`w-full ${scrolled 
-          ? "bg-primary fixed z-[3] duration-1000" 
-          : "bg-transparent absolute z-[3] duration-1000"}`}>
+          ? "bg-primary fixed z-[3] duration-700" 
+          : "bg-primary/20 absolute z-[3] duration-700"}`}>
             <Navbar />
           </div>
           

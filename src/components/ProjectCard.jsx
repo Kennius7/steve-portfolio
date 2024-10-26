@@ -13,7 +13,7 @@ const ProjectCard = ({ ...project }) => {
         </div>
       </div>
 
-      <a href={project.url} rel="noreferrer" target="_blank" 
+      {/* <a href={project.url} rel="noreferrer" target="_blank" 
         className="w-full flex justify-center items-center absolute z-2 bottom-1">
 
         <button className="text-white bg-[#030229]/80 font-poppins rounded-[10px] italic 
@@ -21,7 +21,7 @@ const ProjectCard = ({ ...project }) => {
           {project.buttonTitle}
         </button>
 
-      </a>
+      </a> */}
 
     </div>
   )
