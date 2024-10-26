@@ -29,8 +29,8 @@ const Skills = () => {
             </h2>
             <p className="text-start font-semibold md:text-[22px] sm:text-[20px] xs:text-[15px] text-[14px] 
               font-poppins tracking-wider">
-              These are some of the skills and competencies I have acquired over the years, 
-              ranging from web development to graphic design, social media management and others.
+              These are some of the skills and competencies I have acquired over the years, ranging from 
+              consultation capabilities to public speaking and others.
             </p>
 
           </div>
@@ -58,13 +58,13 @@ const Skills = () => {
                       </div>
                     </div>
 
-                    <div className="flex flex-col justify-center items-center xs:mt-0 mt-[20px] w-full">
-                      <div className="font-poppins font-semibold text-center md:text-[25px] sm:text-[22px] 
-                        xs:text-[18px] xxs:text-[16px] text-[17px] text-grad">
+                    <div className="flex flex-col justify-center items-center sm:mt-4 xs:mt-0 mt-[20px] w-full pl-3">
+                      <div className="font-poppins font-semibold text-start md:text-[19px] sm:text-[18px] 
+                        xs:text-[16px] xxs:text-[14px] text-[12px] text-grad sm:w-[90%] xxs:w-[70%] w-[98%]">
                         {card.name}
                       </div>
-                      <div className="font-poppins italic text-center md:text-[18px] sm:text-[16px] xs:text-[14px] 
-                        xxs:text-[13px] text-[12px] text-dimWhite sm:w-full xxs:w-[70%] w-[98%]">
+                      <div className="font-poppins italic text-start md:text-[15px] sm:text-[13px] xs:text-[12px] 
+                        xxs:text-[11px] text-[10px] text-dimWhite sm:w-[90%] xxs:w-[70%] w-[98%]">
                         {card.title}
                       </div>
                     </div>

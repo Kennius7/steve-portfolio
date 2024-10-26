@@ -52,7 +52,7 @@ export const skillSetSlide = [
     },
     {
       id: 4,
-      name: "Sales Plannng",
+      name: "Sales Planning",
       title: "Handling financial planning and budgeting",
       img: features04,
     },
