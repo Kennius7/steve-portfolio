@@ -81,11 +81,10 @@ const Banner = () => {
 
             <p className="w-full md:text-[17px] sm:text-[18px] xs:text-[17px] xxs:text-[16px] text-[13px] md:mb-10 
               sm:mb-8 xs:mb-8 mb-5 text-primary">
-              I love the idea of using software to design solutions and troubleshooting 
-              complex problems. I believe in the power of programming to transform and build unique 
-              digital experiences.<br /> <br className="xs:block xxs:hidden block" />
-              As a team player, and one who loves building new relationships, I enjoy working with other
-              professionals who are striving to achieve a common goal/result.
+              As a public health professional and health insurance agent, I specialize in bridging healthcare 
+              access and policy. With a background in epidemiology and health policy, I help individuals 
+              and families navigate insurance options, promoting informed health decisions and equitable 
+              access to care. My goal is to enhance health outcomes and well-being.
             </p>
 
             <WhatsappButton buttonText="Chat me on WhatsApp" phoneNumber="08134063059" />
