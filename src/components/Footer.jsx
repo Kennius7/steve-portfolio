@@ -21,9 +21,9 @@ function Footer() {
                         <div className="xs:flex hidden flex-col xs:max-w-[180px] sm:max-w-[300px] 
                             md:max-w-[300px]">
                             <a href="/">
-                                <div className={`text-gray-900 font-bold md:text-[16px] sm:text-[25px] 
+                                <div className={`text-gray-900 font-bold md:text-[20px] sm:text-[25px] 
                                     xs:text-[17px] text-[16px] xs:mb-2 sm:mb-4`}>Explore
-                                    <span className={`text-grad ss:mb-8`}> Stephen</span>
+                                    <span className={`text-grad2 ss:mb-8`}> Stephen</span>
                                 </div>
                             </a>
                             <p className={`w-full text-gray-900 leading-[21px] xs:leading-[22px] 

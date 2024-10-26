@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import logo from "../assets/img/shosanacodemia-logo111.png";
+// import logo from "../assets/img/shosanacodemia-logo111.png";
 import menu from "../assets/img/menu.svg";
 import close from "../assets/img/close.svg";
 import { useContext } from 'react';
@@ -39,7 +39,7 @@ function Navbar() {
 
             <div className="md:w-[25%] sm:w-[50%] xs:w-[48%] w-[50%] flex justify-around items-center">
 
-                <a href="/" className="flex justify-center items-center md:w-[20%] sm:w-[20%] 
+                {/* <a href="/" className="flex justify-center items-center md:w-[20%] sm:w-[20%] 
                     xs:w-[22%] w-[23%]">
                     <img src={logo} alt="Shosanacodemia logo"
                         className={`${scrolled
@@ -47,16 +47,16 @@ function Navbar() {
                             : "w-[80%] h-[80%] xs:w-[42px] xs:h-[42px] sm:w-[45%] sm:h-[45%] md:w-[40px] md:h-[40px] duration-500"} 
                             m-2`}
                     />
-                </a>
+                </a> */}
 
                 <a href="/" className="md:w-[80%] sm:w-[80%] xs:w-[78%] w-[70%]">
                     <div className="w-full flex flex-col justify-center items-center">
                         <div className={`${scrolled
-                            ? "md:text-[19px] sm:text-[25px] xs:text-[21px] xxs:text-[18px] text-[16px] duration-500"
-                            : "md:text-[22px] sm:text-[30px] xs:text-[22px] xxs:text-[20px] text-[18px] duration-500"} 
+                            ? "md:text-[22px] sm:text-[25px] xs:text-[21px] xxs:text-[18px] text-[16px] duration-500"
+                            : "md:text-[24px] sm:text-[30px] xs:text-[22px] xxs:text-[20px] text-[18px] duration-500"} 
                             font-semibold text-white w-full flex justify-start items-center`}>
                             Explore
-                            <span className="text-grad">
+                            <span className="text-grad2">
                                 &nbsp;Stephen
                             </span>
                         </div>
