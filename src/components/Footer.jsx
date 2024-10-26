@@ -26,10 +26,10 @@ function Footer() {
                                     <span className={`text-grad ss:mb-8`}> Stephen</span>
                                 </div>
                             </a>
-                            <p className={`w-full text-gray-900 leading-[25px] xs:leading-[22px] 
+                            <p className={`w-full text-gray-900 leading-[21px] xs:leading-[22px] 
                                 sm:leading-[30px] md:leading-[25px] text-[14px] xs:text-[13px] sm:text-[20px] 
                                 md:text-[14px]`}>
-                                I am your primary contact for all matters related to community health 
+                                Contact me for all matters related to community health 
                                 projects and health insurance engagements. Whether you need assistance 
                                 with program development, implementation, or navigating insurance options, I&apos;m 
                                 here to provide expert guidance and support for your needs.
@@ -59,20 +59,21 @@ function Footer() {
 
                             <ul className="w-full text-gray-900 flex flex-1 flex-col justify-start">
                                 <li className="sm:mb-2 ss:mb-4">
-                                    <a href="https://wa.me/+2348055549979" className="sm:mb-0 mb-2 flex flex-row justify-start items-center">
+                                    <a href="https://wa.me/+2348134063059" 
+                                        className="sm:mb-0 mb-2 flex flex-row justify-start items-center">
                                         <img src={phoneIcon} alt="phone" className="w-[15px] h-[15px] 
-                                        ss:w-[20px] ss:h-[20px]"/>
+                                        ss:w-[20px] ss:h-[20px] bg-black/20 rounded-[50%]"/>
                                         <span className="md:text-[15px] sm:text-[20px] xs:text-[13px] 
-                                        text-[14px] pl-1">+2348055549979</span>
+                                        text-[14px] pl-1">+2348134063059</span>
                                     </a>
                                 </li>
                                 <li className="sm:mb-2 ss:mb-2">
-                                    <a href="mailto:shinjinchu@gmail.com" 
+                                    <a href="mailto:stephenojeogwu01@gmail.com" 
                                         className="flex flex-row justify-start items-center">
                                         <img src={emailIcon} alt="email" className="w-[15px] 
-                                        h-[15px] ss:w-[20px] ss:h-[20px]"/>
+                                        h-[15px] ss:w-[20px] ss:h-[20px] bg-black/20 rounded-[50%]"/>
                                         <span className={`md:text-[15px] sm:text-[20px] xs:text-[13px] 
-                                        text-[15px] tracking-[-1px] xs:tracking-[0px] pl-1`}>shinjinchu@gmail.com</span>
+                                        text-[15px] tracking-[-1.5px] xs:tracking-[0px] pl-1`}>stephenojeogwu01@gmail.com</span>
                                     </a>
                                 </li>
 
@@ -138,7 +139,7 @@ function Footer() {
                     <div className="w-full flex xs:justify-center justify-start mb-2 xs:mb-2 sm:mb-6 md:mb-3 
                         -mt-1 xs:mt-6 sm:mt-4 md:mt-1">
                         <div className="w-[300px] xs:w-[400px] sm:w-[600px] text-gray-900 text-start 
-                            xs:text-center text-[14px] xs:text-[14px] sm:text-[22px] md:text-[15px]">
+                            xs:text-center text-[13px] xs:text-[14px] sm:text-[22px] md:text-[15px]">
                             Copyright &copy; All rights reserved | Explore Stephen.
                         </div>
                     </div>
