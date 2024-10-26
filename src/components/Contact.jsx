@@ -77,7 +77,7 @@ const Contact = () => {
             setStatusText("I'd like to hear from you...");
           }, 5000);
     return;
-  }
+    }
 
 
     setButtonText("Sending...");

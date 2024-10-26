@@ -55,9 +55,9 @@ function Navbar() {
                             ? "md:text-[19px] sm:text-[25px] xs:text-[21px] xxs:text-[18px] text-[16px] duration-500"
                             : "md:text-[22px] sm:text-[30px] xs:text-[22px] xxs:text-[20px] text-[18px] duration-500"} 
                             font-semibold text-white w-full flex justify-start items-center`}>
-                            Steve&apos;s
+                            Explore
                             <span className="text-grad">
-                                &nbsp;Place
+                                &nbsp;Stephen
                             </span>
                         </div>
                     </div>

@@ -22,8 +22,8 @@ function Footer() {
                             md:max-w-[300px]">
                             <a href="/">
                                 <div className={`text-gray-400 font-bold md:text-[16px] sm:text-[25px] 
-                                    xs:text-[17px] text-[16px] xs:mb-2 sm:mb-4`}>Shosan&apos;s
-                                    <span className={`text-grad ss:mb-8`}> Acodemia</span>
+                                    xs:text-[17px] text-[16px] xs:mb-2 sm:mb-4`}>Steve&apos;s
+                                    <span className={`text-grad ss:mb-8`}> Place</span>
                                 </div>
                             </a>
                             <p className={`w-full text-gray-400 leading-[25px] xs:leading-[22px] 
@@ -137,7 +137,7 @@ function Footer() {
                         -mt-1 xs:mt-6 sm:mt-4 md:mt-1">
                         <div className="w-[300px] xs:w-[400px] sm:w-[600px] text-gray-400 text-start 
                             xs:text-center text-[14px] xs:text-[14px] sm:text-[22px] md:text-[15px]">
-                            Copyright &copy; All rights reserved | Shosan&apos;s Acodemia.
+                            Copyright &copy; All rights reserved | Steve&apos;s Place.
                         </div>
                     </div>
                 </div>

@@ -1,9 +1,9 @@
-import myResume from "../assets/docs/Kenny Dev CV January 2024.pdf";
+/* eslint-disable react/prop-types */
 import { useState } from "react";
 
 
 
-function DownloadButton() {
+function DownloadButton({ resumeLink }) {
     const [downloadStatus, setDownloadStatus] = useState(false);
     const [buttonText, setButtonText] = useState("Download my Resume");
 
@@ -20,7 +20,7 @@ function DownloadButton() {
 
     return (
         <>
-            <a href={myResume} onClick={downloadClick} target="_blank" rel="noreferrer" download>
+            <a href={resumeLink} onClick={downloadClick} target="_blank" rel="noreferrer" download>
                 <button
                     className={`flex justify-center items-center cursor-pointer rounded-[10px] duration-1000 
                     bg-white md:w-[35%] md:h-[50px] sm:w-[50%] sm:h-[50px] xs:w-[50%] xs:h-[40px] 
