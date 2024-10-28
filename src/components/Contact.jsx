@@ -35,7 +35,7 @@ const Contact = () => {
   const { firstName, lastName, email, phone, subject, message } = formDetails;
 
   const apiUrlDev = "http://localhost:3300/send-email";
-  // const apiUrlProd = "https://portfolios-project-server.netlify.app/.netlify/functions/api/send-email";
+  const apiUrlProd = "https://portfolios-project-server.netlify.app/.netlify/functions/api/send-email";
   const timeout = 20000;
 
   // const upperCaseRegex = /[A-Z]/;
@@ -224,7 +224,7 @@ const Contact = () => {
 
   const sendEmailForm = async () => {
     try {
-        const response = await axios.post(apiUrlDev, formDetails, { timeout })
+        const response = await axios.post(apiUrlProd, formDetails, { timeout })
         console.log(`${response.data.emailMessage}`);
         toast(response.data.formMessage, { type: "success" });
         setTimeout(() => setIsSubmit(false), 4000);
