@@ -8,6 +8,7 @@ import "react-toastify/dist/ReactToastify.css";
 import axios from "axios";
 import { Timestamp, addDoc, collection, onSnapshot, orderBy, query } from 'firebase/firestore';
 import { db } from "../../FirebaseConfig";
+import { AiOutlineLoading3Quarters } from "react-icons/ai";
 
 
 
@@ -34,7 +35,7 @@ const Contact = () => {
   const { firstName, lastName, email, phone, subject, message } = formDetails;
 
   const apiUrlDev = "http://localhost:3300/send-email";
-  const apiUrlProd = "https://portfolios-project-server.netlify.app/.netlify/functions/api/send-email";
+  // const apiUrlProd = "https://portfolios-project-server.netlify.app/.netlify/functions/api/send-email";
   const timeout = 20000;
 
   // const upperCaseRegex = /[A-Z]/;
@@ -297,7 +298,7 @@ const handleSubmit = (e) => {
   return (
     <section 
       ref={connectRef} 
-      className="contact flex justify-center items-center w-full sm:h-[800px] xs:h-[1000px] xxs:h-[900px] h-[800px]">
+      className="contact flex justify-center items-center w-full sm:h-[900px] xs:h-[1000px] xxs:h-[1200px] h-[800px]">
 
       <div className="flex sm:flex-row-reverse flex-col justify-center items-center w-full">
 
@@ -317,7 +318,7 @@ const handleSubmit = (e) => {
             
               <div>
 
-                <div className="flex flex-col justify-center items-center h-[80px]">
+                <div className="flex flex-col justify-center items-center h-[80px] xs:mb-4 mb-3">
                   <input type="text" 
                     value={firstName} 
                     name="firstName"
@@ -335,13 +336,13 @@ const handleSubmit = (e) => {
                   }
                 </div>
 
-                <div className="flex flex-col justify-center items-center h-[80px]">
+                <div className="flex flex-col justify-center items-center h-[80px] xs:mb-4 mb-3">
                   <input type="text" 
                     value={lastName} 
                     name="lastName"
                     placeholder="Last Name" 
                     onChange={(e) => onFormUpdate('lastName', e.target.value)} 
-                    className="h-[65%] xs:text-[18px] text-[13px] mb-3 xs:py-3 py-2 xxs:pl-3 pl-2 xs:placeholder:text-[16px] 
+                    className="h-[65%] xs:text-[18px] text-[13px] xxs:pl-3 pl-2 xs:placeholder:text-[16px] 
                       xxs:placeholder:text-[15px] placeholder:text-[14px] placeholder:font-semibold"
                   />
                   {
@@ -353,13 +354,13 @@ const handleSubmit = (e) => {
                   }
                 </div>
 
-                <div className="flex flex-col justify-center items-center h-[80px]">
+                <div className="flex flex-col justify-center items-center h-[80px] xs:mb-4 mb-3">
                   <input type="email" 
                     value={email} 
                     name="email"
                     placeholder="Email Address" 
                     onChange={(e) => onFormUpdate('email', e.target.value)}
-                    className="h-[65%] xs:text-[18px] text-[13px] mb-3 xs:py-3 py-2 xxs:pl-3 pl-2 xs:placeholder:text-[16px] 
+                    className="h-[65%] xs:text-[18px] text-[13px] xxs:pl-3 pl-2 xs:placeholder:text-[16px] 
                       xxs:placeholder:text-[15px] placeholder:text-[14px] placeholder:font-semibold"
                   />
                   {
@@ -371,13 +372,13 @@ const handleSubmit = (e) => {
                   }
                 </div>
 
-                <div className="flex flex-col justify-center items-center h-[80px]">
+                <div className="flex flex-col justify-center items-center h-[80px] xs:mb-4 mb-3">
                   <input type="text" 
                     value={phone} 
                     name="phone"
                     placeholder="Phone No: +234..."
                     onChange={(e) => onFormUpdate('phone', e.target.value)}
-                    className="h-[65%] xs:text-[18px] text-[13px] mb-3 xs:py-3 py-2 xxs:pl-3 pl-2 xs:placeholder:text-[16px] 
+                    className="h-[65%] xs:text-[18px] text-[13px] xxs:pl-3 pl-2 xs:placeholder:text-[16px] 
                       xxs:placeholder:text-[15px] placeholder:text-[14px] placeholder:font-semibold"
                   />
                   {
@@ -389,13 +390,13 @@ const handleSubmit = (e) => {
                   }
                 </div>
 
-                <div className="flex flex-col justify-center items-center h-[80px]">
+                <div className="flex flex-col justify-center items-center h-[80px] xs:mb-4 mb-3">
                   <input type="text" 
                     value={subject} 
                     name="subject"
                     placeholder="Email Subject" 
                     onChange={(e) => onFormUpdate('subject', e.target.value)}
-                    className="h-[65%] xs:text-[18px] text-[13px] mb-3 xs:py-3 py-2 xxs:pl-3 pl-2 xs:placeholder:text-[16px] 
+                    className="h-[65%] xs:text-[18px] text-[13px] xxs:pl-3 pl-2 xs:placeholder:text-[16px] 
                       xxs:placeholder:text-[15px] placeholder:text-[14px] placeholder:font-semibold"
                   />
                   {
@@ -413,7 +414,7 @@ const handleSubmit = (e) => {
                     name="message"
                     placeholder="Message" 
                     onChange={(e) => onFormUpdate('message', e.target.value)}
-                    className="h-[80%] xs:text-[18px] text-[13px] mb-3 xs:py-3 py-2 xxs:pl-3 pl-2 xxs:h-[100px] 
+                    className="h-[80%] xs:text-[18px] text-[13px] xxs:pl-3 pl-2 xxs:h-[100px] 
                       xs:placeholder:text-[16px] xxs:placeholder:text-[15px] placeholder:text-[14px] 
                       placeholder:font-semibold"
                   >
@@ -431,11 +432,18 @@ const handleSubmit = (e) => {
                   type="submit" 
                   className="font-poppins text-start xs:rounded-[8px] rounded-[6px] sm:text-[18px] xs:text-[16px] 
                   xxs:text-[15px] text-[13px] md:w-[45%] sm:w-[60%] xs:w-[45%] w-[60%] xs:h-[55px] xxs:h-[50px] 
-                  h-[45px] mt-[25px] xs:pl-4 xxs:pl-3 pl-2">
-                  <span className="duration-1000">{buttonText}</span>
+                  h-[45px] xs:mt-[25px] mt-[18px] xs:pl-4 xxs:pl-3 pl-2">
+                  {
+                    !isSubmit ?
+                      <span className="duration-1000">{buttonText}</span>
+                      : 
+                      <div className='flex justify-center items-center rotate'>
+                        <AiOutlineLoading3Quarters size={24} color="blue" />
+                      </div>
+                  }
                 </button>
 
-                <div className="flex flex-col justify-center items-start navText3 xs:mt-3 mt-1 xxs:pl-2 pl-1">
+                {/* <div className="flex flex-col justify-center items-start navText3 xs:mt-3 mt-1 xxs:pl-2 pl-1">
                   {
                     status.message &&
                     <div>
@@ -450,7 +458,7 @@ const handleSubmit = (e) => {
                       { statusText }
                     </div>
                   }
-                </div>
+                </div> */}
 
               </div>
 
