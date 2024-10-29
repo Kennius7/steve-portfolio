@@ -20,7 +20,8 @@ const Contact = () => {
     email: '',
     phone: '',
     subject: '',
-    message: ''
+    message: '',
+    receiverEmail: "stephenojeogwu01@gmail.com",
   }
   const [formDetails, setFormDetails] = useState(formInitialDetails);
   const [buttonText, setButtonText] = useState("Send Message");
@@ -59,12 +60,12 @@ const Contact = () => {
         })
     }
 
-    // if (regData.length === 0) {
-    //     setTimeout(() => {
-    //         fetchRegData();
-    //         console.log(`Reg Data polling...`)
-    //     }, 30000);
-    // }
+    if (regData.length === 0) {
+        setTimeout(() => {
+            fetchRegData();
+            console.log(`Reg Data polling...`)
+        }, 30000);
+    }
 
     // if (regData.length !== 0) {
     //     const regDataFetch = regData.length === 0 ? "None" : regData;

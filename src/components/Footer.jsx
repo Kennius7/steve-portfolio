@@ -73,7 +73,9 @@ function Footer() {
                                         <img src={emailIcon} alt="email" className="w-[15px] 
                                         h-[15px] ss:w-[20px] ss:h-[20px] bg-black/20 rounded-[50%]"/>
                                         <span className={`md:text-[15px] sm:text-[20px] xs:text-[13px] 
-                                        text-[15px] tracking-[-1.5px] xs:tracking-[0px] pl-1`}>stephenojeogwu01@gmail.com</span>
+                                        text-[15px] tracking-[-1.5px] xs:tracking-[0px] pl-1`}>
+                                            stephenojeogwu01@gmail.com
+                                        </span>
                                     </a>
                                 </li>
 
